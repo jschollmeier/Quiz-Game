@@ -4,30 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" class="href">
 </head>
 <body>
-    <div class = "container">
+    <h2 class="time"></h2>
+    <br>
+    <br>
+    <h2 class="score"></h2>
+    <div class="row">
+    <div class = "container col-md-3">
     <h1 id = "heading">Coding Quiz Challenge</h1>
     <br>
     <div id="texty">
     Try to answer the following questions to the best of you ability.
     <br>
-    Answering correctily will earn you points while answering incorrectly will cause you to lose points.
+    Answering correctily will earn you points while answering incorrectly will cause you to lose points and time!
  <br>
  Good Luck!
+ <br>
+ <br>
  <br>
 </div>
  <br>
 
+
+<button class = "elbutton" id = "button1">make me visible</button>
+<br>
+<button class = "elbutton" id = "button2"></button>
+<br>
+<button class = "elbutton" id = "button3"></button>
+<br>
+<button class = "elbutton" id = "button4"></button>
+<br>
+
  <button id="buttons">Start</button>
 
-<h2 id="status"></h2>
-    <br> 
+ <form id='initials' method="GET">
+    <label id ="ident" for="fname">Initials</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    </form>
+<button class = "elbutton" id = "button5">Submit</button>
 
  
+ <hr id="line">
+ 
+<h2 id="status"></h2>
+    <br>
+</div> 
+    
+<div class="container1 col-md-3">
 
+    <h1 id="score-tag">High Scores</h1>
+    <ol id="list">
+
+    </ol>
+</div>
+
+ 
+    
     <script src="./script.js"></script>
+    
 </div>
 
 </body>
